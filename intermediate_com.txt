@@ -1,0 +1,8 @@
+find folder/ -name '*.js' --> file files in a folder with .js extension
+find folder/ -iname '*.js' --> file files in a folder with .js extension (iname case insensitive)
+
+find . -type d --> find all folders
+
+find . -type d 'images' ---> find only folder named images
+
+find src/ -name '*.js' -delete --> find and delete

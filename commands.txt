@@ -1,0 +1,32 @@
+pwd --> print working dir
+ls ---> list the files
+cd --> change dir
+ls -l ---> long listing gives more info
+ls -la ---> including hidden files
+cat filename.ext --> to see contents of file
+cat -n filename.ext --> to see contents of file with num of line
+open . --> to open a folder in filemanager 
+open folder/file ---> opne any file
+open folder/file -a textEditor --> override defaults
+
+touch filename.ext --> create a file
+rm --> delete a file
+rm -rf --> delete a file permanantly without prompt
+rm -r --> delete a folder
+echo --> similiar to console.log
+echo 'some text' > filename --> write something in a file (overrides)
+echo 'append this text' >> filename --> it will append text
+echo 'text smg' > filename --> to create and write at once
+
+mkdir folder --> create a dir/folder
+mkdir -p some/nested/folders --> creates a nested folders
+
+mv filename folder/actualFile --> moves a file into a dir
+
+touch filename.ext newname.ext ---> rename a file
+
+mv foldr/* newFolder/ ---> moves all files into a folder
+mv folder/file . --> move form a folder to base/working dir
+cp filename newpath/filename --> copy a file with same or new filename
+cp filename newpath/ --> copy with same filename 
+cp -R folder/* newFolder/ --> -R mean recursive ;copy all from folder
