@@ -1,0 +1,3 @@
+git merge my_branch
+
+git merge --abort =>  to safely go back / reset

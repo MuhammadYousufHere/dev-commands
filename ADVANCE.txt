@@ -1,0 +1,20 @@
+To commit all relative files
+
+git add src/components/* ---> add all of this
+
+
+rebase --> rewrite history
+
+
+git push -f
+git push --force-with-lease  ---> check if someone else in working on the branch before pushing forcefully
+
+--------Aliases----------
+
+To beautify git log 
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Creset(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+
+	git_sync='git pull -r && git push'
+	
+	ll='ls -laG'

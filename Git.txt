@@ -1,0 +1,53 @@
+git clone -b chap01 https://github.com....
+
+-b specifies the branch to be downloaded/clone
+
+
+git rm --cached <file> 
+ to unstage
+
+
+git log  
+ => to see all the commits
+git log -n1  
+=> most recent commit
+or 
+git show 23dj4jf --color-words
+==> for specific commit
+git log --oneline
+
+git diff 
+  => see the changes you've made in a file/ working directory
+  * by default compares the working directory against the staging tree
+
+git diff 24242cw..dcj32rj --color-words
+comparing two commits
+git reset HEAD app.js 
+=> it will unstage i.e remove from commiting
+
+--cached  === --staged
+git diff --staged 
+==> diff b/w the repository and the staging tree
+==> show only staged changes 
+
+git diff --color-words 
+
+git rm filename.js
+-- removes manually deleted file from repo then you can commit to repo
+
+git mv file1.js App.js 
+-- rename the file/move file - move and rename works same
+
+------------------------------------------------------------------
+
+git commit --all
+git commit -a
+!Cation
+commit directly without staging
+
+also 
+git commit -am 'files added'
+
+shortcut
+
+ggp -- pushing to git s/c

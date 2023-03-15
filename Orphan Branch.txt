@@ -1,0 +1,19 @@
+Publish a branch on github with a clean commit history
+--How'd you delete all commit history of an existing branch?
+
+ORPHAN BRANCH
+
+A branch which has all the files in the current branch without any history
+
+git checkout --orphan clean_branch
+
+now add all the files to this new branch 
+
+git add -A
+git commit -m 'Squeaky clean branch'
+
+this branch is going to replace the main branch so delte that;
+
+git branch -D main ----- delete the main 
+git branch -m main ===== rename it to main branch 
+git push -f origin main

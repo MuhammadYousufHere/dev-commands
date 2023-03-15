@@ -1,0 +1,8 @@
+==> just to improve commit  message
+git commit --amend -m 'last commit was bad: new good message'
+
+but if you want to include a file to that commit but keep the existing messge
+
+git add filename
+git commit --amend --no-edit 
+

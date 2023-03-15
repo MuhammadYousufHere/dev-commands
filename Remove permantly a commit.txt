@@ -1,0 +1,5 @@
+Interactive rebase of last 4 commits
+
+git rebase -i HEAD~4
+
+will open up a file and gives you options ..

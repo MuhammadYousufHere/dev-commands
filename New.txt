@@ -1,0 +1,35 @@
+git --version
+
+OS - 
+Homebrew
+brew install git
+
+git config --list 
+
+git config --global user.name 'MuhammadYousufHere'
+git config --global user.email 'khanyousufmy80@gmail.com'
+
+git remote 
+git remote -v
+git remote show origin 
+
+
+git fetch 
+git merge origin/master
+git pull origin master
+
+git branch              -- git branches
+git branch -M main      -- rename master to main
+
+
+git checkout main
+git switch main
+git checkout -           -- previous branch
+git checkout -b cool     -- create and switch
+
+
+git revert
+git reset
+
+git commit --amend       --modify last commit
+git commit -am 'typo error'
