@@ -1,5 +1,6 @@
 Publish a branch on github with a clean commit history
 --How'd you delete all commit history of an existing branch?
+-- has no releation with any history of main branch. that is why orphan.
 
 ORPHAN BRANCH
 
