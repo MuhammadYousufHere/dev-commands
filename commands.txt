@@ -15,7 +15,7 @@ rm -rf --> delete a file permanantly without prompt
 rm -r --> delete a folder
 echo --> similiar to console.log
 echo 'some text' > filename --> write something in a file (overrides)
-echo 'append this text' >> filename --> it will append text
+echo 'append this text' >> filename --> it will append text .
 echo 'text smg' > filename --> to create and write at once
 
 mkdir folder --> create a dir/folder
