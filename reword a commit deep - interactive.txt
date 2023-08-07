@@ -1,0 +1,7 @@
+git rebase -i lastcommithast
+
+r for reword 
+esc then :x enter to exit
+a menu pops up 
+edit the commit message and then
+:x enter to save
