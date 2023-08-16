@@ -1,0 +1,16 @@
+if you accedently pushed the .env to remote don't worry.
+
+first => add .env to .gitignore
+then => run $git rm -r --cached .env
+make sure you have no unstagged or uncommited changes.
+
+push the commit afer running first command.
+
+now to remove it from the history
+
+now => run $git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch .env" HEAD
+
+finally push the changes
+git push -f 
+
+that's it. but be careful next time.
