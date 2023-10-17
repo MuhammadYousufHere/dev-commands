@@ -1,0 +1,6 @@
+git ls-tree -r main
+---> list all the tracked files on branch main
+
+git rm file 
+
+---> this makes a change by deleting a file -__ ? what is permananat solution to remove a file without a trace.
