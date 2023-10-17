@@ -1,0 +1,7 @@
+git stash push -m stashname => stash the changes (sort of hide)
+
+git stash list => show list of all stashes
+
+git stash pop stash@{n} => to drop
+
+git stash apply stash@{n} => to apply nth stash
