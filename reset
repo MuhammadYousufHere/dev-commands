@@ -1,0 +1,1 @@
+git reset --hard origin/main => will remove the local commits.

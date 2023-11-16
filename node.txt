@@ -1,0 +1,3 @@
+upgrade node version
+
+choco upgrade nodejs -y
